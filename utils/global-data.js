@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Space 🚀📡 Deep Tech Startups Insights';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : '2024 ©Africa New Space Ventures - Made with ☕ and ❤';
 
   return {
     name,
